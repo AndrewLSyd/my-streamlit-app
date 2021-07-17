@@ -43,13 +43,6 @@ if st.checkbox('Show dataframe'):
 
     chart_data
 
-option = st.selectbox(
-    'Which number do you like best?',
-     df['first column'])
-
-'You selected: ', option
-
-
 option = st.sidebar.selectbox(
     'Which number do you like best?',
      df['first column'])
